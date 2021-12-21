@@ -17,4 +17,4 @@ jobs:
       - uses: xu-cheng/latex-action@master
         with:
           root_file: main.tex
-          working_directory: documents/
+          working_directory: .
