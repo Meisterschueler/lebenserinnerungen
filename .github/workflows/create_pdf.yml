@@ -1,6 +1,7 @@
 name: test
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -25,3 +26,4 @@ jobs:
         with:
           name: PDF
           path: main.pdf
+
